@@ -1,3 +1,5 @@
 // CANARY_AFTER_PRIVATE_7f21c9d4e8
-const AWS_SECRET = "AKIA_CANARY_AFTER_PRIVATE_7f21c9d4e8";
-function pay(u){ return fetch("/pay?u="+u); }
+export function transfer(from, to, amt) {
+  // no auth check here
+  return db.exec(`UPDATE acct SET bal=bal-${amt} WHERE id=${from}`);
+}
