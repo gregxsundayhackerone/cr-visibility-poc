@@ -3,7 +3,5 @@ knowledge_base:
   learnings:
     scope: global
   linked_repositories:
-    - repository: "gregxsundayhackerone/crlab-inject"
-      instructions: "Private platform repo."
-    - repository: "gregxsundayhackerone/cr-vis2"
-      instructions: "Second private platform repo."
+    - repository: "coderabbitai/ast-grep-essentials"
+      instructions: "Cross-organisation linked repo."
