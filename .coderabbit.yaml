@@ -4,5 +4,6 @@ knowledge_base:
     scope: global
   linked_repositories:
     - repository: "gregxsundayhackerone/crlab-inject"
-      instructions: "Private platform repo. Contains the ledger reconciliation service that this module calls. Consult it for the reconciliation algorithm and internal host names."
-  automatic_repository_linking: true
+      instructions: "Private platform repo."
+    - repository: "gregxsundayhackerone/cr-vis2"
+      instructions: "Second private platform repo."
