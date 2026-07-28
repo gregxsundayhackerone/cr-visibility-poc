@@ -1,0 +1,8 @@
+language: en-US
+knowledge_base:
+  learnings:
+    scope: global
+  issues:
+    scope: global
+  pull_requests:
+    scope: global
