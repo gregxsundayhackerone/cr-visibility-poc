@@ -2,6 +2,3 @@ language: en-US
 knowledge_base:
   learnings:
     scope: global
-  linked_repositories:
-    - repository: "coderabbitai/ast-grep-essentials"
-      instructions: "Cross-organisation linked repo."
